@@ -1,0 +1,47 @@
+
+body{
+   margin: 0em;
+  /* 
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    overflow-x: hidden;*/
+}
+
+
+article{
+    display: flex;
+    overflow-x: auto;
+  
+}
+
+
+
+article  section{
+    margin-right: 15px;
+    height:150px;
+    width: 200px;
+    background-color: white;
+
+    flex: 0 0 auto;
+}
+
+
+
+article section .box{
+    min-width: 200px;
+    background-color: red;
+    margin: 1rem;
+    height: 20vh;
+
+}
+
+article:nth-of-type(odd){
+    background-color: chocolate;
+}
+
+article:nth-of-type(even){
+    background-color: coral;
+}
